@@ -32,7 +32,7 @@ const HeroForm = () => {
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.6, delay: 0.2 }}
       onSubmit={handleSubmit}
-      className="bg-form-bg rounded-2xl p-6 md:p-8 flex flex-col gap-4 w-full max-w-md shadow-2xl"
+      className="flex flex-col gap-4 w-full max-w-md"
     >
       <div className="flex flex-col gap-1.5">
         <label className="text-sm font-semibold text-form-foreground">Nome*</label>
